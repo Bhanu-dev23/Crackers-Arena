@@ -1,0 +1,441 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: border-box;
+    font-family: Roboto, Arial;
+}
+
+.navbar {
+    background-color: rgb(22, 0, 42);
+    height: 60px;
+    width: 100vw; /* Viewport width */
+    color: rgba(255, 255, 255, 0.648);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.147);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+                        /* LOGO */
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+    background-size: cover;
+    background-image: url("Logo.png");
+}
+
+                        /* For all boxes */
+
+.box {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.648);
+    border: 2px solid transparent;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-radius: 0.5rem;
+}
+
+.box:hover {
+    background-color: rgb(67, 0, 129);
+    border-bottom: 2px solid rgb(94, 0, 182);
+    color: white;
+    transform: scale(1);
+    transition: all 0.2s ease-in;
+}
+
+.nav-text {
+    font-size: 0.7rem;
+}
+
+                        /* Box-1 */
+
+.house-icon {
+    font-size: 1rem;
+    margin-right: 4px;
+}
+
+                        /* Box-2 */
+
+
+.bomb-icon {
+    font-size: 1rem;
+    margin-right: 4px;
+}
+
+                        /* Box-3 */
+
+
+.info-icon {
+    font-size: 1rem;
+    margin-right: 4px;
+}
+
+                        /* Panel */
+
+.panel {
+    height: 1165px;
+    color: white;
+}
+
+.hero-section {
+    height: 245px;
+    background-size: cover;
+    background-image: url("Hero-Image2.png");
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-text {
+    height: 130px;
+    width: 260px;
+    background-size: cover;
+    background-image: url("Logo.png");
+    position: relative;
+    left: 10px;
+    top: 20px;
+}
+
+.enter-button{
+    height: 35px;
+    width: 170px;
+    background-color: rgb(255, 200, 0);
+    position: relative;
+    left: 50px;
+    margin-top: 25px;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    color: rgb(22, 0, 42);
+    border-bottom: 3px solid rgb(255, 170, 0);
+}
+
+.enter-button-text {
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    font-weight: 700;
+}
+
+.enter-button:active {
+    background-color: rgb(232, 182, 0);
+    border-bottom: 3px solid rgb(219, 146, 0);
+}
+
+                        /* Cracker section */
+
+.cracker-section{
+    height: 1165px;
+    width: 100%;
+    background-image: url("Panel4.png");
+    position: absolute;
+    top: 285px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+.heading {
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 10px;
+}
+
+.box-1 {
+    height: 200px;
+    width: 350px;
+    background-color: rgba(255, 255, 255, 0.062);
+    border: 2px solid rgba(255, 255, 255, 0.089);
+    border-radius: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 10px;
+    backdrop-filter: blur(3px);
+    transition: transform 0.2s ease-in-out;
+}
+
+.box-1:hover {
+    transform: scale(1.02);
+}
+
+.rare {
+    height: 30px;
+    width: 100px;
+    background-color: rgba(255, 255, 255, 0.165);
+    color: rgb(255, 217, 0);
+    border-radius: 0.9rem;
+    border: 2px solid rgba(255, 255, 255, 0.052);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 5px;
+}
+
+.level {
+    font-size: 0.8rem;
+}
+
+.cracker {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.img-1 {
+    background-image: url("Ladi2.png");
+    background-size: cover;
+    height: 140px;
+    width: 140px;
+}
+
+.img-2 {
+    background-image: url("Fuljhadi2.png");
+    background-size: cover;
+    height: 140px;
+    width: 140px;
+}
+
+.img-3 {
+    background-image: url("Rocket2.png");
+    background-size: cover;
+    height: 140px;
+    width: 140px;
+}
+
+.img-4 {
+    background-image: url("Anar2.png");
+    background-size: cover;
+    height: 140px;
+    width: 140px;
+}
+
+.img-5 {
+    background-image: url("Sutli-Bom2.png");
+    background-size: cover;
+    height: 140px;
+    width: 140px;
+}
+
+.details {
+    height: 150px;
+    width: 170px;
+}
+
+.name {
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+}
+
+.details pre {
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+    margin-top: 7px;
+    display: inline-block;
+}
+
+.total {
+    width: 100px;
+    height: 10px;
+    background-color: rgba(255, 255, 255, 0.225);
+    border-radius: 1rem;
+    position: relative;
+    top: 13px;
+}
+
+
+                        /* BOX-1 Details */
+
+
+.percentage-1 {
+    width: 85px;
+    height: 10px;
+    background-color: orange;
+    border-radius: 1rem;
+}
+
+.percentage-2 {
+    width: 85px;
+    height: 10px;
+    background-color: orange;
+    border-radius: 1rem;
+}
+
+.percentage-3 {
+    width: 10px;
+    height: 10px;
+    background-color: orange;
+    border-radius: 1rem;
+}
+
+.percentage-4 {
+    width: 75px;
+    height: 10px;
+    background-color: orange;
+    border-radius: 1rem;
+}
+
+
+                        /* BOX-2 Details */
+
+
+.percentage-2-1 {
+    width: 10px;
+    height: 10px;
+    background-color: orange;
+    border-radius: 1rem;
+}
+
+.percentage-2-2 {
+    width: 10px;
+    height: 10px;
+    background-color: orange;
+    border-radius: 1rem;
+}
+
+.percentage-2-3 {
+    width: 10px;
+    height: 10px;
+    background-color: orange;
+    border-radius: 1rem;
+}
+
+.percentage-2-4 {
+    width: 10px;
+    height: 10px;
+    background-color: orange;
+    border-radius: 1rem;
+}
+
+
+                        /* BOX-3 Details */
+
+
+.percentage-3-1 {
+    width: 85px;
+    height: 10px;
+    background-color: orange;
+    border-radius: 1rem;
+}
+
+.percentage-3-2 {
+    width: 50px;
+    height: 10px;
+    background-color: orange;
+    border-radius: 1rem;
+}
+
+.percentage-3-3 {
+    width: 95px;
+    height: 10px;
+    background-color: orange;
+    border-radius: 1rem;
+}
+
+.percentage-3-4 {
+    width: 75px;
+    height: 10px;
+    background-color: orange;
+    border-radius: 1rem;
+}
+
+
+                        /* BOX-4 Details */
+
+
+.percentage-4-1 {
+    width: 50px;
+    height: 10px;
+    background-color: orange;
+    border-radius: 1rem;
+}
+
+.percentage-4-2 {
+    width: 50px;
+    height: 10px;
+    background-color: orange;
+    border-radius: 1rem;
+}
+
+.percentage-4-3 {
+    width: 30px;
+    height: 10px;
+    background-color: orange;
+    border-radius: 1rem;
+}
+
+.percentage-4-4 {
+    width: 40px;
+    height: 10px;
+    background-color: orange;
+    border-radius: 1rem;
+}
+
+
+                        /* BOX-5 Details */
+
+
+.percentage-5-1 {
+    width: 95px;
+    height: 10px;
+    background-color: orange;
+    border-radius: 1rem;
+}
+
+.percentage-5-2 {
+    width: 95px;
+    height: 10px;
+    background-color: orange;
+    border-radius: 1rem;
+}
+
+.percentage-5-3 {
+    width: 95px;
+    height: 10px;
+    background-color: orange;
+    border-radius: 1rem;
+}
+
+.percentage-5-4 {
+    width: 95px;
+    height: 10px;
+    background-color: orange;
+    border-radius: 1rem;
+}
+
+
+.damage-per {
+    display: flex;
+}
+
+.gap {
+    width: 30px;
+}
+
+
+
+                        /* Footer */
+
+
+footer {
+    margin-top: 220px;
+}
+
+.foot-img {
+    height: 200px;
+    background-image: url("Footer-Image2.png");
+    background-size: cover;
+    color: rgba(255, 255, 255, 0.648);
+    display: flex;
+}
+
+.foot-text {
+    font-size: 0.6rem;
+    margin-top: 50px;
+    margin-left: 205px;
+    color: rgba(255, 182, 24, 0.876);
+}
